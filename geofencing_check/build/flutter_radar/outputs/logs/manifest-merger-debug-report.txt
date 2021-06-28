@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:1:1-14:12
+INJECTED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:1:1-14:12
+INJECTED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:1:1-14:12
+	package
+		ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:2:3-29
+		INJECTED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:3:3-13:17
+receiver#io.radar.flutter.RadarFlutterPlugin$RadarFlutterReceiver
+ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:4:5-11:16
+	android:enabled
+		ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:6:7-29
+	android:exported
+		ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:7:7-31
+	android:name
+		ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:5:7-61
+intent-filter#action:name:io.radar.sdk.RECEIVED
+ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:8:7-10:23
+action#io.radar.sdk.RECEIVED
+ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:9:11-58
+	android:name
+		ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:9:19-55
+service#io.radar.flutter.RadarForegroundService
+ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:12:5-140
+	android:stopWithTask
+		ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:12:110-137
+	android:foregroundServiceType
+		ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:12:69-109
+	android:name
+		ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml:12:14-68
+uses-sdk
+INJECTED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml
+INJECTED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml
+		ADDED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Flutter\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_radar-3.1.1\android\src\main\AndroidManifest.xml

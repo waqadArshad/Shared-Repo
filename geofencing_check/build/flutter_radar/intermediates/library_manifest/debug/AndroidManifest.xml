@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.radar.flutter" >
+
+    <uses-sdk android:minSdkVersion="16" />
+
+    <application>
+        <receiver
+            android:name="io.radar.flutter.RadarFlutterPlugin$RadarFlutterReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="io.radar.sdk.RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="io.radar.flutter.RadarForegroundService"
+            android:foregroundServiceType="location"
+            android:stopWithTask="true" />
+    </application>
+
+</manifest>

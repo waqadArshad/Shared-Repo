@@ -1,0 +1,2 @@
+com/pravera/flutter_activity_recognition/BuildConfig.java
+ com.pravera.flutter_activity_recognition.BuildConfig

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/204150362/android.android_alarm_manager.iml" filepath="$PROJECT_DIR$/.idea/modules/204150362/android.android_alarm_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/871791924/android.flutter_activity_recognition.iml" filepath="$PROJECT_DIR$/.idea/modules/871791924/android.flutter_activity_recognition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1620256007/android.flutter_foreground_task.iml" filepath="$PROJECT_DIR$/.idea/modules/1620256007/android.flutter_foreground_task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/391976143/android.flutter_radar.iml" filepath="$PROJECT_DIR$/.idea/modules/391976143/android.flutter_radar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/302499349/android.geolocator.iml" filepath="$PROJECT_DIR$/.idea/modules/302499349/android.geolocator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1527524085/android.poly_geofence_service.iml" filepath="$PROJECT_DIR$/.idea/modules/1527524085/android.poly_geofence_service.iml" />
+    </modules>
+  </component>
+</project>

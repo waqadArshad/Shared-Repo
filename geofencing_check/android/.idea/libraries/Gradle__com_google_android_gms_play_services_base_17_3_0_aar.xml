@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-base:17.3.0@aar">
+    <CLASSES>
+      <root url="jar://C:/Gradle/gradle-5.6.4/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/transforms-2/files-2.1/47c443fe9f250d18a9a4cd44fd0f677d/jetified-play-services-base-17.3.0/jars/classes.jar!/" />
+      <root url="file://C:/Gradle/gradle-5.6.4/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/transforms-2/files-2.1/47c443fe9f250d18a9a4cd44fd0f677d/jetified-play-services-base-17.3.0/res" />
+      <root url="file://C:/Gradle/gradle-5.6.4/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/transforms-2/files-2.1/47c443fe9f250d18a9a4cd44fd0f677d/jetified-play-services-base-17.3.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Gradle/gradle-5.6.4/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/modules-2/files-2.1/com.google.android.gms/play-services-base/17.3.0/e2e505b1e445c60990c3183f1c9dfa967b478699/play-services-base-17.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

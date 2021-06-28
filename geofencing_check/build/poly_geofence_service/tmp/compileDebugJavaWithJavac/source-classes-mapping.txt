@@ -1,0 +1,2 @@
+com/pravera/poly_geofence_service/BuildConfig.java
+ com.pravera.poly_geofence_service.BuildConfig

@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+thedeliverers/geofencing_check/BuildConfig.java
+ thedeliverers.geofencing_check.BuildConfig

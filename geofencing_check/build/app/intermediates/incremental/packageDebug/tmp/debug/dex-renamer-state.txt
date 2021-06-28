@@ -1,0 +1,4 @@
+#Fri Jun 25 19:07:23 PKT 2021
+base.0=E\:\\GitHub Repos\\geofencing_check\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

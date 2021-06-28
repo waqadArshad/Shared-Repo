@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-location:18.0.0@aar">
+    <CLASSES>
+      <root url="jar://C:/Gradle/gradle-5.6.4/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/transforms-2/files-2.1/8f8dd1e8b1db154c278b6352d5a29751/jetified-play-services-location-18.0.0/jars/classes.jar!/" />
+      <root url="file://C:/Gradle/gradle-5.6.4/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/transforms-2/files-2.1/8f8dd1e8b1db154c278b6352d5a29751/jetified-play-services-location-18.0.0/res" />
+      <root url="file://C:/Gradle/gradle-5.6.4/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/transforms-2/files-2.1/8f8dd1e8b1db154c278b6352d5a29751/jetified-play-services-location-18.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Gradle/gradle-5.6.4/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/modules-2/files-2.1/com.google.android.gms/play-services-location/18.0.0/21c0fe95fc8d679c87e65c85129c1191a8ca8625/play-services-location-18.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

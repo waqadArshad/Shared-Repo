@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: io.radar:sdk:3.1.4@aar">
+    <CLASSES>
+      <root url="jar://C:/Gradle/gradle-5.6.4/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/transforms-2/files-2.1/edd5baab8c4d562d5651f0683caccf55/jetified-sdk-3.1.4/jars/classes.jar!/" />
+      <root url="file://C:/Gradle/gradle-5.6.4/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/transforms-2/files-2.1/edd5baab8c4d562d5651f0683caccf55/jetified-sdk-3.1.4/res" />
+      <root url="file://C:/Gradle/gradle-5.6.4/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/transforms-2/files-2.1/edd5baab8c4d562d5651f0683caccf55/jetified-sdk-3.1.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Gradle/gradle-5.6.4/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/modules-2/files-2.1/io.radar/sdk/3.1.4/7f49460da7235bbcef77944dbc9d57b7ee2c3a01/sdk-3.1.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://C:/Gradle/gradle-5.6.4/wrapper/dists/gradle-6.1.1-all/cfmwm155h49vnt3hynmlrsdst/gradle-6.1.1/caches/modules-2/files-2.1/io.radar/sdk/3.1.4/7155c7227bdcb7a47923075a3e170308748a4146/sdk-3.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
