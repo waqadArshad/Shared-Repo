@@ -130,7 +130,7 @@ Widget navigationMenufunction(BuildContext context) {
             color: Colors.red),
           ),
           onTap: () async {
-            bool islogOut= await SharedPreferenceHelper().logOut();
+            bool islogOut = await SharedPreferenceHelper().logOut();
             print("islogOut: $islogOut");
             if(islogOut){
               Navigator.pushReplacement(

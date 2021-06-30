@@ -30,6 +30,7 @@ class DatabaseMethods {
   }
 
 //ToDO: -----------------------Start Methods-----------------------------------
+  //fetch data against a specific username.
   Future<Map<String, dynamic>> FetchAll(String username) async {
     print("inside FetchAll() is: ");
     var collection = FirebaseFirestore.instance.collection('Employee');
@@ -52,6 +53,7 @@ class DatabaseMethods {
     }
   }
 
+  //fetch attendance data for marking attendance
   FetchAttendanceData(String empid, String date) async {
     Map<String, dynamic> data = {};
     print("inside FetchAttendanceData() is: ");
@@ -65,12 +67,12 @@ class DatabaseMethods {
         .then((value) async {
       for (var queryDocumentSnapshot in value.docs) {
         data = await queryDocumentSnapshot.data();
-        var name = data['empid'];
-        var date = data['date'];
-        print("name in FetchAttendanceData is: $name");
-        print("username in FetchAttendanceData is: $date");
-        print("Map is: ");
-        data.forEach((k, v) => print('Key: ${k}: value: ${v}'));
+        // var name = data['empid'];
+        // var date = data['date'];
+        // print("name in FetchAttendanceData is: $name");
+        // print("username in FetchAttendanceData is: $date");
+        // print("Map is: ");
+        // data.forEach((k, v) => print('Key: ${k}: value: ${v}'));
       }
     });
 
@@ -93,10 +95,4 @@ class DatabaseMethods {
 
 //ToDO: -----------------------End Methods-------------------------------------
 
-
-  Future<Stream<DocumentSnapshot>> getUserByEmail(String email) async {
-    return FirebaseFirestore.instance.collection("User").doc(email).snapshots();
-    // .where("email id", isEqualTo: email)
-    // .snapshots();
-  }
 }
