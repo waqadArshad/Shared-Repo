@@ -22,11 +22,11 @@ class _SplashscreenState extends State<Splashscreen> {
   @override
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(
-        SystemUiOverlayStyle(statusBarColor: Color(0xff3F26DF)));
+        SystemUiOverlayStyle(statusBarColor: Color(0xff3f26df)));
     return SplashScreenView(
       home: empid!=null && username!=null?
-      GeoFence(username: username, empid: empid):
-      signin(),
+      GeoFence(username: username, empid: empid)
+          : signin(),
       duration: 5000,
       imageSrc: "Images/logo.png",
       imageSize: 200,

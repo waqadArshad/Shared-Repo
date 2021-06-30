@@ -3,8 +3,11 @@ import 'package:flutter/material.dart';
 import 'helperfunctions/sharedpref_helper.dart';
 import 'splashscreen.dart';
 
+
 //TODO: GeoFence
-//TODO: Time
+//TODO: Time 8-11[check-in] & 4-7[check-out](16-19)
+//TODO: SharedPreference
+
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

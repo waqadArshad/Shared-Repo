@@ -414,6 +414,7 @@ class _GeoFenceState extends State<GeoFence> {
                             print(
                                 "fenceData['status'].toString().split('.')[1]!='EXIT'"
                                 "${fenceData['status'].toString().split('.')[1] != "EXIT"}");
+
                             if (fenceData['status'].toString().split('.')[1] !=
                                 "EXIT") {
                               initializeDateFormatting();
@@ -467,7 +468,7 @@ class _GeoFenceState extends State<GeoFence> {
                                     await DatabaseMethods()
                                         .markAttendanceCheckOut(
                                             empid, empAttendanceMap);
-                                    showAlertDialog(context, "Done, Marked!");
+                                    showAlertDialog(context, "Done, Check-out Marked!");
                                   } else if ((fetchEmpAttendanceDataMap[
                                                   'check-in'] !=
                                               '' &&
@@ -491,7 +492,8 @@ class _GeoFenceState extends State<GeoFence> {
                                   } else {
                                     print("In else. Something bad happened!");
                                     showAlertDialog(context,
-                                        "In else. Something bad happened!");
+                                        "Something bad happened! "
+                                            "Please check your internet connection");
                                   }
                                 });
                               } else {
@@ -642,7 +644,7 @@ class _GeoFenceState extends State<GeoFence> {
     return StreamBuilder<PolyGeofence>(
       stream: _streamController.stream,
       builder: (context, snapshot) {
-        final updatedDateTime = DateTime.now();
+        // final updatedDateTime = DateTime.now();
         if (snapshot.hasData) {
           print("inside hasData");
         } else {
@@ -650,6 +652,7 @@ class _GeoFenceState extends State<GeoFence> {
         }
         content = snapshot.data?.toJson().toString() ??
             'You do not seem to be inside the Geofence';
+        //fenceData map being assigned the data being passed through snapshot.
         fenceData = snapshot.data?.toJson();
         if (fenceData != null) {
           fenceData.forEach((key, value) {

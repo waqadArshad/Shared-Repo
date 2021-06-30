@@ -137,7 +137,9 @@ class _signinState extends State<signin> {
             SizedBox(
               height: 5,
             ),
-            isPressed?CircularProgressIndicator():SizedBox(
+            isPressed?
+            CircularProgressIndicator():
+            SizedBox(
               height: 5,
             ),
             GestureDetector(
@@ -195,19 +197,17 @@ class _signinState extends State<signin> {
                       showAlertDialog(
                           context,
                           "Wrong password,\n"
-                              "Please try again with the right ones.");
+                              "Please try again with the right one.");
                     }
                   }
                   else {
                     print("inside data empty else: ");
-
                     showAlertDialog(
                         context,
                         "No Record exists against the credentials,\n"
                             "please try again with the right ones.");
                   }
                 });
-
               },
             ),
             SizedBox(

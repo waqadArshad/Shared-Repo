@@ -29,6 +29,7 @@ class DatabaseMethods {
     return await reply;
   }
 
+//ToDO: -----------------------Start Methods-----------------------------------
   Future<Map<String, dynamic>> FetchAll(String username) async {
     print("inside FetchAll() is: ");
     var collection = FirebaseFirestore.instance.collection('Employee');
@@ -89,6 +90,9 @@ class DatabaseMethods {
         .doc(empid)
         .update(empAttendanceMap);
   }
+
+//ToDO: -----------------------End Methods-------------------------------------
+
 
   Future<Stream<DocumentSnapshot>> getUserByEmail(String email) async {
     return FirebaseFirestore.instance.collection("User").doc(email).snapshots();
