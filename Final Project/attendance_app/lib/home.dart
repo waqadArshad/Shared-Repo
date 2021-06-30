@@ -196,6 +196,33 @@ class _GeoFenceState extends State<GeoFence> {
     );
   }
 
+  showCircularDialog(BuildContext context) {
+    // set up the button
+    Widget okButton = FlatButton(
+      child: Text("OK"),
+      onPressed: () {
+        Navigator.pop(context);
+      },
+    );
+
+    // set up the AlertDialog
+    AlertDialog alert = AlertDialog(
+      title: Text("Wait Please!"),
+      content: CircularProgressIndicator.adaptive(value: 3.0,),
+      // actions: [
+      //   okButton,
+      // ],
+    );
+
+    // show the dialog
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return alert;
+      },
+    );
+  }
+
   // Create a [PolyGeofenceService] instance and set options.
   final _polyGeofenceService = PolyGeofenceService.instance.setup(
       interval: 5000,
@@ -573,6 +600,7 @@ class _GeoFenceState extends State<GeoFence> {
                               ]),
                         ),
                         onTap: () {
+                          // showCircularDialog(context);
                           DatabaseMethods().FetchAll(username).then(
                                   (value) {
                             Map<String,dynamic> fetchedData=value;

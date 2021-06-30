@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 import 'helperfunctions/sharedpref_helper.dart';
 import 'splashscreen.dart';
 
+//TODO: GeoFence
+//TODO: Time
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   Firebase.initializeApp();

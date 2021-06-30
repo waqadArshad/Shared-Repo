@@ -83,8 +83,8 @@ class _signinState extends State<signin> {
                       enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(color: Colors.black, width: 3.0),
                       ),
-                      hintText: 'Id No.',
-                      labelText: 'User Id',
+                      hintText: 'Enter Username',
+                      labelText: 'Username',
                       hintStyle: TextStyle(
                         color: Colors.grey[400],
                         fontSize: 20,
@@ -175,7 +175,7 @@ class _signinState extends State<signin> {
                   data = value;
                   if (data!=null) {
                     print("inside data not empty if: data: $data");
-                    if (data['empid'] == usernameCon.text &&
+                    if (data['username'] == usernameCon.text &&
                         data['password'] == passCon.text) {
                       print("inside comparison if usernameCon: ${usernameCon.text}"
                           "passCon: ${passCon.text}");
