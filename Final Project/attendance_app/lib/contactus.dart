@@ -48,7 +48,7 @@ class _ContactUsState extends State<ContactUs> {
           // toolbarHeight: 50,
           backgroundColor: Color(0xff3f55dd),
         ),
-        backgroundColor: Color(0xff638AE2),
+        backgroundColor: Color(0xffFFFFFF),
         body: SingleChildScrollView(
           child: Column(children: <Widget>[
             SizedBox(
@@ -59,7 +59,7 @@ class _ContactUsState extends State<ContactUs> {
                   image: AssetImage("Images/logo.png"),
                 )),
             new Divider(
-              color: Colors.white,
+              color: Colors.black,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
@@ -69,12 +69,12 @@ class _ContactUsState extends State<ContactUs> {
                 ),
                 Text(
                   "CUI Faculty Attendance App",
-                  style: TextStyle(color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold),
+                  style: TextStyle(color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
                 ),
               ],
             ),
             new Divider(
-              color: Colors.white,
+              color: Colors.black,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
@@ -84,12 +84,12 @@ class _ContactUsState extends State<ContactUs> {
                 ),
                 Text(
                   "COMSATS University Islamabad,\nVehari Campus\nMailsi Road, Off Multan Road,\nVehari, Punjab,\nPakistan",
-                  style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
+                  style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),
                 ),
               ],
             ),
             new Divider(
-              color: Colors.white,
+              color: Colors.black,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
@@ -99,12 +99,12 @@ class _ContactUsState extends State<ContactUs> {
                 ),
                 Text(
                   "cuivehari@gmail.com",
-                  style: TextStyle(color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold),
+                  style: TextStyle(color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
                 ),
               ],
             ),
             new Divider(
-              color: Colors.white,
+              color: Colors.black,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
@@ -114,12 +114,12 @@ class _ContactUsState extends State<ContactUs> {
                 ),
                 Text(
                   "Phone No# +92-67-3602803",
-                  style: TextStyle(color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold),
+                  style: TextStyle(color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
                 ),
               ],
             ),
             new Divider(
-              color: Colors.white,
+              color: Colors.black,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
@@ -134,12 +134,12 @@ class _ContactUsState extends State<ContactUs> {
                       "\nM. Ayyaz Khan"
                       "\nSyed Mustahsan"
                       "\nMuqaddas Javed",
-                  style: TextStyle(color:Colors.white, fontSize: 25, fontWeight: FontWeight.bold),
+                  style: TextStyle(color:Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
                 ),
               ],
             ),
             new Divider(
-              color: Colors.white,
+              color: Colors.black,
             ),
           ]),
         ));
