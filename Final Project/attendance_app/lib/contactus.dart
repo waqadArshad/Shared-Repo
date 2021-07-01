@@ -49,7 +49,7 @@ class _ContactUsState extends State<ContactUs> {
           backgroundColor: Color(0xff3f55dd),
         ),
         backgroundColor: Color(0xff638AE2),
-        body: Center(
+        body: SingleChildScrollView(
           child: Column(children: <Widget>[
             SizedBox(
               height: 20,
@@ -128,7 +128,12 @@ class _ContactUsState extends State<ContactUs> {
                   width: 7,
                 ),
                 Text(
-                  "Developed by:\nWaqad\nM. Sheraz Jamil",
+                  "Developed by:"
+                      "\nWaqad"
+                      "\nM. Sheraz Jamil"
+                      "\nM. Ayyaz Khan"
+                      "\nSyed Mustahsan"
+                      "\nMuqaddas Javed",
                   style: TextStyle(color:Colors.white, fontSize: 25, fontWeight: FontWeight.bold),
                 ),
               ],
